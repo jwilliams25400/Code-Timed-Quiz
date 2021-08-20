@@ -1,0 +1,103 @@
+body {
+    background-image: url(../images/20210810_180100.jpg);
+    background-size: cover;
+}
+#timer{
+    text-align: right;
+    color: red;
+    font-size: large;
+    padding-right: 5%;
+}
+
+button {
+    width: 150px;
+    background-color: purple;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+button:hover {
+    background-color: crimson;
+    color: whitesmoke;
+}
+button:focus {
+    border-color: black
+}
+.container {
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    padding: 70px;
+}
+input {
+    text-align: center;
+}
+#quiz-container {
+float: none;
+background-color: palegoldenrod;
+margin-top: 20px;
+padding: 5%;
+max-width: 50%;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+}
+#game-over {
+    text-align: center;
+    margin-top: 150px;
+     /* display: none;  */
+    align-items: center;
+    /* flex-direction: column */
+}
+#ranks {
+     margin-top: 50;
+    /* display: none; */
+    border: solid;
+}  
+#leaders-info {
+    display: flex;
+    justify-content: space-around;
+    background-color: seagreen;
+}
+#main {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+#league-leader-container {
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    /* display: none; */
+    justify-content: center;
+}
+#your-score {
+    font-weight: bold;
+    font-size: 32px;
+    padding-bottom: .25rem;
+}
+#user-hs {
+    font-weight: bold;
+    padding: 4.5rem;
+    float: left;
+}
+ #initials{
+    font-weight: bold;
+    padding: 6.0rem;
+    display: inline-block;
+ }
+#results {
+    display: none;
+}
+
+
+
+#playclearbtns {
+     display: none;
+}

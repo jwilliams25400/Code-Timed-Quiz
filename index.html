@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>So you think you know Sports?</title>
+  </head>
+  <nav>
+    <div>
+      <a href="rankingindex.html">
+        <button id="high-score" class="ranking-btn" type="button">
+          Rankings
+        </button>
+      </a>
+      <div id="timer">00:30</div>
+    </div>
+  </nav>
+  <body>
+    <div class="container">
+      <div id="main">
+        <h2>So you think you know Sports?</h2>
+        <h3>
+          Test your knowledge, you will have 30 seconds to complete this quiz!!
+        </h3>
+        <button id="beginbtn">Click here to your test knowledge!</button>
+      </div>
+
+      <div id="quiz-container">
+        <div id="questions"><p>"placeholder Words"</p></div>
+        <button id="a" onclick="checkAnswer('a')">A</button>
+        <button id="b" onclick="checkAnswer('b')">B</button>
+        <button id="c" onclick="checkAnswer('c')">C</button>
+        <button id="d" onclick="checkAnswer('d')">D</button>
+        <div id="results"></div>
+      </div>
+      <div id="game-over">
+        <div id="your-score"></div>
+        <input
+          type="text"
+          placeholder="Add initials to the winners"
+          id="initials"
+        />
+        <button id="submit">Submit & be remembered forever</button>
+      </div>
+      <div id="playclearbtns">
+        <button id="try-again">Play Again</button>
+        <button id="delete-scores">Clear Rankings</button>
+      </div>
+    </div>
+    <script src="assets/script/script.js"></script>
+  </body>
+</html>
