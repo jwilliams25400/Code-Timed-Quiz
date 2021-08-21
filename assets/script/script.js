@@ -148,7 +148,9 @@ function showScore() {
 }
 
 //sumbit button show array or highscore with most recent users high score
-submitBtn.addEventListener("click", function highscores(event) {
+
+if (submitBtn) // added if statement 
+  {submitBtn.addEventListener("click", function highscores(event) {
     event.preventDefault
   if (nameEl.value === "") {
     alert("Enter Initials and live on forever!!!");
@@ -170,6 +172,7 @@ submitBtn.addEventListener("click", function highscores(event) {
     console.log(savedScores);
     localStorage.setItem("savedScores", JSON.stringify(savedScores));
     // generateHighscores();
+  
   }
 });
 // clears high score and uses local storage to make new list of high scores
@@ -177,7 +180,7 @@ function generateHighscores() {
   displayName.innerHTML = "";
   userScoreDisplay.innerHTML = "";
   var highScores = JSON.parse(localStorage.getItem("savedScores")) || [];
-  console.log(highscores)
+  console.log(highScores)//Changed captailization 
   for (i = 0; i < highScores.length; i++) {
     var newInitials = document.createElement("li");
     var newScores = document.createElement("li");
@@ -215,5 +218,5 @@ function checkAnswer(answer) {
   curr++;
   getSportsQuestion();
 }
-
+ if(startBtn) //added if statement 
 startBtn.addEventListener("click", beginQuiz);
