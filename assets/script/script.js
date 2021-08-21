@@ -186,6 +186,9 @@ function generateHighscores() {
     var newScores = document.createElement("li");
     displayName.appendChild(newInitials);
     userScoreDisplay.appendChild(newScores);
+    
+    newInitials.innerHTML = highScores[i].name;
+    newScores.innerHTML = highScores[i].score
   }
 }
 
