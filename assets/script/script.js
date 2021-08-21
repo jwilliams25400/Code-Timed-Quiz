@@ -24,7 +24,7 @@ var buttonD = document.getElementById("d");
 // Sports Questions
 var sportsQuestionsArr = [
   {
-    question: "which NBA player has won the most championship rings?",
+    question: "Which NBA player has won the most championship rings?",
     optionA: "Kareem Abdul-Jabbar",
     optionB: "Bill Russell",
     optionC: "Michael Jordan",
@@ -33,7 +33,7 @@ var sportsQuestionsArr = [
   },
 
   {
-    question: "which NHL player has the most goals?",
+    question: "Which NHL player has the most goals?",
     optionA: "Mike Gartner",
     optionB: "Brendan Shananhan",
     optionC: "Wayne Gretzky",
@@ -42,7 +42,7 @@ var sportsQuestionsArr = [
   },
 
   {
-    question: "which NBL player has the most Home Runs?",
+    question: "Which NBL player has the most Home Runs?",
     optionA: "Alex ARod Rodriguez",
     optionB: "Ken Griffey Jr",
     optionC: "Babe Ruth",
@@ -50,17 +50,17 @@ var sportsQuestionsArr = [
     answer: "d",
   },
 
-  {
-    question: "which NBA player has won the most championship rings?",
-    optionA: "Kareem Abdul-Jabbar",
-    optionB: "Bill Russell",
-    optionC: "Michael Jordan",
-    optionD: "Magic Johnson",
-    answer: "b",
-  },
+  //{
+    //question: "Which NBA player has won the most championship rings?",
+   // optionA: "Kareem Abdul-Jabbar",
+   //optionB: "Bill Russell",
+    //optionC: "Michael Jordan",
+   // optionD: "Magic Johnson",
+  //  answer: "b",
+ // },  DUPLICATE QUESTION 
 
   {
-    question: "which WNBA player has won the most points?",
+    question: "Which WNBA player has won the most points?",
     optionA: "Lisa Leslie",
     optionB: "Candice pondexter",
     optionC: "Diana Taurasi",
@@ -69,7 +69,7 @@ var sportsQuestionsArr = [
   },
 
   {
-    question: "which Soccer player has the most goals?",
+    question: "Which Soccer player has the most goals?",
     optionA: "Cristiano Ronaldo",
     optionB: "Lionel Messi",
     optionC: "Ferenc Puskas",
@@ -78,7 +78,7 @@ var sportsQuestionsArr = [
   },
 
   {
-    question: "which NFL player has the most yards?",
+    question: "Which NFL player has the most yards?",
     optionA: "Emmitt Smith",
     optionB: "Jerry Rice",
     optionC: "Walter Payton",
@@ -87,7 +87,7 @@ var sportsQuestionsArr = [
   },
 
   {
-    question: "what is the nost points scored by one player in an NBA game?",
+    question: "What is the nost points scored by one player in an NBA game?",
     optionA: "65",
     optionB: "79",
     optionC: "60",
