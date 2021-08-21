@@ -150,7 +150,7 @@ function showScore() {
 //sumbit button show array or highscore with most recent users high score
 
 if (submitBtn) // added if statement 
-  {submitBtn.addEventListener("click", function highscores(event) {
+  submitBtn.addEventListener("click", function highscores(event) {
     event.preventDefault
   if (nameEl.value === "") {
     alert("Enter Initials and live on forever!!!");
