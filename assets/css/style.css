@@ -40,6 +40,7 @@ background-color: palegoldenrod;
 margin-top: 20px;
 padding: 5%;
 max-width: 50%;
+display: none; /* added this to remove placeholder before game started */
 }
 h2 {
     font-size: 40px;
