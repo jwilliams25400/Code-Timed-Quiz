@@ -161,7 +161,7 @@ if (submitBtn) // added if statement
     var currentPlayer = nameEl.value.trim();
     var userHighscore = {
       name: currentPlayer,
-      score: score,
+      score: score * 12.5,
     };
     doneEl.style.display = "none";
     // rankContainer.style.display = "flex";
@@ -188,7 +188,7 @@ function generateHighscores() {
     userScoreDisplay.appendChild(newScores);
     
     newInitials.innerHTML = highScores[i].name;
-    newScores.innerHTML = highScores[i].score
+    newScores.innerHTML = highScores[i].score * 12.5
   }
 }
 
